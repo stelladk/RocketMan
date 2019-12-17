@@ -28,6 +28,22 @@ public class Rocket : MonoBehaviour
         Music();
     }
 
+    void OnCollisionEnter(Collision collision){
+        switch(collision.gameObject.tag){
+            case "Friendly":
+                print("OK");
+                //do nothing
+                break;
+            case "Fuel":
+                print("Fuel");
+                break;
+            default:
+                print("Dead");
+                //kill player
+                break;
+        }
+    }
+
     private void Thrust(){
         float frameThrust = mainThrust * Time.deltaTime;
 
