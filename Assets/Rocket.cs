@@ -9,14 +9,14 @@ public class Rocket : MonoBehaviour
     [SerializeField] float mainThrust = 100f;
 
     Rigidbody rigidBody;
-    AudioSource audio;
+    AudioSource audio_src;
     Boolean playing;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
-        audio = GetComponent<AudioSource>();
+        audio_src = GetComponent<AudioSource>();
         playing = false;
     }
 
@@ -70,11 +70,11 @@ public class Rocket : MonoBehaviour
     }
 
     private void Music(){
-        if(!audio.isPlaying && playing){
-            audio.Play();
+        if(!audio_src.isPlaying && playing){
+            audio_src.Play();
         }
         if(!playing){
-            audio.Stop();
+            audio_src.Stop();
         }
     }
 }
