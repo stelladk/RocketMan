@@ -59,7 +59,7 @@ public class Rocket : MonoBehaviour
         rigidBody.freezeRotation = true;
 
         float frameRotation = rtThrust * Time.deltaTime;
-
+        
         if(Input.GetKey(KeyCode.A)){
             transform.Rotate(Vector3.forward * frameRotation);
         }else if(Input.GetKey(KeyCode.D)){

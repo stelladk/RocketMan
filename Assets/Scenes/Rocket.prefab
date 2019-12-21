@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1570004290275473712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2.5, z: 1}
+  m_LocalScale: {x: 1, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 8277638276479211714}
   m_RootOrder: 0
@@ -118,8 +118,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4146470378470543794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.18, z: 0}
-  m_LocalScale: {x: 1, y: 1.5556251, z: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1.5556251, z: 0.5}
   m_Children: []
   m_Father: {fileID: 8277638276479211714}
   m_RootOrder: 3
@@ -209,8 +209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6487557704857642710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -1.24, z: 0}
-  m_LocalScale: {x: 0.34199, y: 1.02597, z: 0.5}
+  m_LocalPosition: {x: 0.5, y: -1.5, z: 0}
+  m_LocalScale: {x: 0.34199, y: 1.02597, z: 0.25}
   m_Children: []
   m_Father: {fileID: 8277638276479211714}
   m_RootOrder: 1
@@ -300,8 +300,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7025217622655559061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -1.24, z: 0}
-  m_LocalScale: {x: 0.34199, y: 1.02597, z: 0.5}
+  m_LocalPosition: {x: -0.5, y: -1.5, z: 0}
+  m_LocalScale: {x: 0.34199, y: 1.02597, z: 0.25}
   m_Children: []
   m_Father: {fileID: 8277638276479211714}
   m_RootOrder: 2
@@ -392,7 +392,7 @@ Transform:
   m_GameObject: {fileID: 8230312349516787129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.252985, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 217890277684296935}
   - {fileID: 3302894692052383383}
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rtThrust: 200
-  mainThrust: 600
+  mainThrust: 550
 --- !u!82 &4801267832337398690
 AudioSource:
   m_ObjectHideFlags: 0
