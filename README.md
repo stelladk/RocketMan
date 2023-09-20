@@ -5,10 +5,13 @@ From
 
 ## Gameplay
 
+<div align="center">
+
 <img src="screenshots/gameplay1.png" alt="Gameplay Screenshot" width="550"/>
 <img src="screenshots/gameplay2.png" alt="Gameplay Screenshot" width="550"/>
 <img src="screenshots/gameplay3.png" alt="Gameplay Screenshot" width="550"/>
 
+</div>
 
 ## Features
 - Input Binding
